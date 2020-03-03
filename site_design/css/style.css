@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+th {
+  font-family: Bangers;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+p,
+td,
+a,
+label {
+  font-family: arial;
+  color: black;
+}
+
+.button {
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+  color: red;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Header
+_____________________________________________________________________________ */
+
+
+.navbar {
+  background-color: #bd1e22;
+  padding: 5px 0px;
+}
+
+/* Index
+_____________________________________________________________________________ */
+
+.hero {
+  height: 355px;
+  background: url("../img/comic-lady.jpg");
+  background-position: center;
+  background-size:cover;
+}
+
+.content {
+  background-color: #00aafe;
+}
+
+.comic-table-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comic-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 354.4px;
+}
+
+.comic-table {
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 354.4px;
+}
+
+.comic-table thead {
+  background-color: red;
+}
+
+.comic-table th,
+.comic-table td {
+  padding: 10px;
+}
+
+.comic-table th {
+  font-family: Bangers;
+  color: white;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.comic-app .button {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Add Comic
+_____________________________________________________________________________ */
+
+.comic-form-area {
+  padding: 10px;
+}
+
+.comic-form-title {
+  color: #00aafe;
+  margin-bottom: 10px;
+}
+
+
+.comic-form label {
+  display: inline-block;
+  width: 80px;
+}
+
+.comic-form input[type="checkbox"] {
+  display: inline-block;
+}
+
+.comic-form button {
+  margin-top: 10px;
+}
+
+.comic-form input,
+.comic-form button {
+  margin: 5px 0;
+  outline: none;
+}
+
+.comic-form input[type="date"],
+.comic-form input[type="text"],
+.comic-form input[type="number"] {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+}
+
+.comic-form button {
+  border: 1px solid darkgrey;
+  cursor: pointer;
+}
+
+/* Footer
+_____________________________________________________________________________ */
+
+.footer-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bd1e22;
+  height: 200px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+}
+
+.footer-box p {
+  color: white;
+}
+
+.footer-box-heading {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  height: 30px;
+}
